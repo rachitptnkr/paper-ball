@@ -13,13 +13,13 @@ function preload()
 }
 
 function setup() {
-	createCanvas(800, 700);
+	createCanvas(1500, 700);
 	engine = Engine.create();
 	world = engine.world;
 
-	r1=new Dustbin(495,600,10,100)
-	r2=new Dustbin(600,645,200,10)
-	r3=new Dustbin(695,600,10,100)
+	r1=new Dustbin(695,600,10,100)
+	r2=new Dustbin(800,645,200,10)
+	r3=new Dustbin(895,600,10,100)
 
 	ball=new Ball(100,630,20)
 
